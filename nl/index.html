@@ -359,7 +359,9 @@ nav.stuck{border-bottom-color:var(--line);}
 .award span{font-size:13.5px;color:var(--text3);}
 
 /* ============ germany ============ */
-#germany{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+/* Styled by class, not id, so the anchor id can be per-country without the
+   section losing its background. */
+.country-section{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
 .de-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px;}
 .de-block h3{font-size:1.05rem;font-weight:680;margin:0 0 12px;letter-spacing:-.015em;}
 .de-block p{color:var(--text2);font-size:15px;margin:0;}
@@ -414,13 +416,10 @@ footer{border-top:1px solid var(--line);padding:36px 0 48px;}
       <a href="#thinking" data-i18n="nav.think">How I think</a>
       <a href="#work" data-i18n="nav.work">Case studies</a>
       <a href="#craft" data-i18n="nav.craft">Craft</a>
-      <a href="#germany">Netherlands</a>
+      <a href="#netherlands">Netherlands</a>
     </div>
     <div class="nav-right">
-      <div class="lang" hidden>
-        <button type="button" data-lang="en" aria-pressed="true">EN</button>
-        <button type="button" data-lang="de" aria-pressed="false">DE</button>
-      </div>
+      
       <a class="nav-cta" href="#contact" data-i18n="nav.contact">Get in touch</a>
     </div>
   </div>
@@ -737,7 +736,7 @@ footer{border-top:1px solid var(--line);padding:36px 0 48px;}
 </section>
 
 <!-- ============================ GERMANY ============================ -->
-<section id="germany">
+<section id="netherlands" class="country-section">
   <div class="col">
     <div class="sec-head rv">
       <p class="eyebrow">Why the Netherlands, and how ready I am</p>
