@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://manveer1999.github.io/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://manveer1999.github.io/nl</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://manveer1999.github.io/ie</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://manveer1999.github.io/?lang=de</loc><changefreq>monthly</changefreq></url>
 </urlset>
